@@ -13,7 +13,7 @@ A simple task organizer application built using Python and Tkinter.
 
 ## Usage
 
-1. Run the `TaskOrganizerApp.py` script using Python.
+1. Run the `TaskOrganizer.py` script using Python.
 2. The main window of the Task Organizer will appear.
 3. Enter a task description in the provided text entry field.
 4. Click the "Add Task" button to add the task to the list.
