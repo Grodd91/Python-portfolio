@@ -2,7 +2,7 @@
 
 A simple task organizer application built using Python and Tkinter.
 
-![Task Organizer Screenshot](https://imgur.com/a/ZiotIMB)
+![Task Organizer Screenshot](https://i.imgur.com/YunfiKt.png)
 
 ## Features
 
