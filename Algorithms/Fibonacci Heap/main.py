@@ -87,3 +87,47 @@ class FibonacciHeap:
         child.left.right = child.right
         child.right.left = child.left
         child.parent = parent
+        if parent.child is None:
+            parent.child = child
+            child.right = child
+            child.left = child
+        else:
+            child.right = parent.child
+            child.left = parent.child.left
+            parent.child.left = child
+            child.left.right = child
+
+    def decrease_key(self, node, new_key):
+        if new_key > node.key:
+            return
+        node.key = new_key
+        parent = node.parent
+        if parent and node.key < parent.key:
+            self.cut(node, parent)
+            self.cascading_cut(parent)
+        if node.key < self.min_node.key:
+            self.min_node = node
+
+    def cut(self, child, parent):
+        child.left.right = child.right
+        child.right.left = child.left
+        parent.degree -= 1
+        if parent.child == child:
+            parent.child = child.right
+        if parent.degree == 0:
+            parent.child = None
+        child.parent = None
+        child.marked = False
+        self.min_node.left.right = child
+        child.right = self.min_node
+        child.left = self.min_node.left
+        self.min_node.left = child
+
+    def cascading_cut(self, node):
+        parent = node.parent
+        if parent:
+            if not node.marked:
+                node.marked = True
+            else:
+                self.cut(node, parent)
+                self.cascading_cut(parent)
