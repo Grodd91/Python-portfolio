@@ -19,7 +19,7 @@ Make sure you have the following dependencies installed:
 
 3. Run the program using the following command:
 
-`python linear_regression.py`
+`python main.py`
 
 4. The program will generate training data, train the linear regression model, plot the training data and regression line, and perform predictions for new data points.
 
