@@ -19,7 +19,7 @@ Make sure you have the following dependencies installed:
 
 3. Run the program using the following command:
 
-  `python image_classification.py`
+  `python main.py`
 
 4. The program will load the MNIST dataset, preprocess the data, create and train the neural network model, evaluate its performance, and display sample predictions.
 
