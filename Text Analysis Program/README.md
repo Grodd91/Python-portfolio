@@ -24,7 +24,7 @@ To use the Text Analysis Program, follow these simple steps:
 
 4. View Analysis: The program will display the analysis results, including the word count, sentence count, and the most common words in the provided text.
 
-Usage
+## Usage
 The Text Analysis Program is designed to help you quickly gain insights into a piece of text. It provides the following analyses:
 
 Word Count: Calculates the total number of words in the provided text.
@@ -35,7 +35,7 @@ Easy-to-use command-line interface.
 Efficient analysis of text for basic insights.
 Customizable and extensible for more advanced analysis techniques.
 Beginner-friendly codebase for learning and experimentation.
-Contributions
+## Contributions
 Contributions are highly welcome! If you have suggestions for improvements, new features, or bug fixes, please follow these steps:
 
 Fork the repository.
