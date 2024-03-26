@@ -17,7 +17,7 @@ git clone https://github.com/grodd91/python/Portfolio%20management.git`
 
 2. Navigate to the project directory:
 
-`cd portfolio-management`
+`cd Portfolio%20managementt`
 
 3. Install the required dependencies:
 
