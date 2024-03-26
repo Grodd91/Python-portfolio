@@ -20,8 +20,4 @@ To run the program, follow these steps:
 
 After launching the program, a window will appear with a form for entering data. Fill in the fields with appropriate information, then click the "Generate CV" button. The program will generate a PDF file containing your CV based on the entered data.
 
-## Author
-
-This program was written by ChatGPT based on user needs.
-
 
