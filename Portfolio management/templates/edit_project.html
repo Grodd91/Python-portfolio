@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Project</title>
+</head>
+<body>
+    <h1>Edit Project</h1>
+    <form method="post">
+        Name: <input type="text" name="name" value="{{ project.name }}"><br>
+        Description: <textarea name="description">{{ project.description }}</textarea><br>
+        <input type="submit" value="Save">
+    </form>
+</body>
+</html>
