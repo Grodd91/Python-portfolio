@@ -13,7 +13,7 @@ The Portfolio Management System is a simple web application built using Flask, a
 1. Clone the repository:
 
 `bash
-git clone https://github.com/grodd91/portfolio-management.git`
+git clone https://github.com/grodd91/Portfolio%20management.git`
 
 2. Navigate to the project directory:
 
