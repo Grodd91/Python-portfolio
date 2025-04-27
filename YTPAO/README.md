@@ -24,11 +24,11 @@ pip install -r requirements.txt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/YT-PAO.git
+   git clone https://github.com/Python-portfolio/YTPAO.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd YT-PAO
+   cd YTPAO
    ```
 3. Install the required dependencies:
    ```bash
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 To use the GUI version of YT-PAO, simply run the application:
 
 ```bash
-python3 main_gui.py
+python3 ui.py
 ```
 
 The GUI will prompt you to enter a YouTube playlist link, select output format, and choose the desired report mode (all, unavailable, or available). It will then display results interactively and allow you to save them.
@@ -90,7 +90,7 @@ python3 main.py --playlistLink <playlist_link> --resultFormat <output_format> --
 ## File Structure
 
 - `main.py`: Command-line tool for playlist analysis and reporting.
-- `main_gui.py`: GUI-based tool for organizing and viewing playlists.
+- `ui.py`: GUI-based tool for organizing and viewing playlists.
 - `Output/`: Folder where reports are saved. Each playlist has its own subfolder named after the playlist.
 - `web_template/`: HTML and CSS templates used for generating HTML reports.
 - `config.yaml`: Configuration file containing MySQL database connection details.
