@@ -42,11 +42,14 @@ This project is a simple chatbot application built using Python. The chatbot use
 3. Type "exit" to close the application.
 
 ## Example Interaction
-You: Hi Bot: Hey! :D
+You: Hi 
+Bot: Hey! :D
 
-You: How old are you? Bot: I'm good, how about you?
+You: How old are you? 
+Bot: I'm good, how about you?
 
-You: What is the purpose of life? Bot: I'm not sure
+You: What is the purpose of life? 
+Bot: I'm not sure
 
 You: exit
 
